@@ -1,6 +1,6 @@
 //🚀🚀🚀  Topic #1 Closures 🚀🚀🚀//
 /* 🚀🚀🚀🤓 Task 1: 🤓🚀🚀🚀 
-Study the code below and explain in your own words why nested function can access the variable internal. */
+Study the code below and explain in your own words why the nested function can access the variable internal. */
 
 const external = "I'm outside the function";
 
@@ -16,7 +16,7 @@ function myFunction() {
 myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
-
+// nestedFunction() can access the variable internal because it's a closure. The variable internal is part of nestedFunction's lexical environment and therefore available to it. That is, functions can call variables that are upstream of them in the call stack but can't call variables that are downstream of them in the call stack. Another way to look at it is, by defining nestedFunction inside myFunction, we preserve the environment in which nestedFunction was created inside nestedFunction.
 
 
 
