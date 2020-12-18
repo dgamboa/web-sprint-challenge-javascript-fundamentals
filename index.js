@@ -138,8 +138,10 @@ function greeting(firstName, lastName){
   
 // 🦁💪 Stretch: If you haven't already, convert your array method callbacks into arrow functions - make sure you comment out this section before you submit your work 🦁💪
  
-
-
+// const consume = ((a, b, cb) => cb(a, b));
+// const add = ((a,b) => a + b);
+// const multiply = ((a,b) => a * b);
+// const greeting = ((firstName, lastName) => `Hello ${firstName} ${lastName}, nice to meet you!`);
 
 
 // 🐴🐴🐴 Topic 3: Prototypes 🐴🐴🐴 //
